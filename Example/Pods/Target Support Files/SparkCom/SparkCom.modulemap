@@ -1,0 +1,6 @@
+framework module SparkCom {
+  umbrella header "SparkCom-umbrella.h"
+
+  export *
+  module * { export * }
+}

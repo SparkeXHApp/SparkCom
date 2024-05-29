@@ -1,0 +1,6 @@
+framework module Pods_SparkCom_Example {
+  umbrella header "Pods-SparkCom_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
