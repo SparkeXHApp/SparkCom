@@ -112,7 +112,7 @@
 		11B3E42EFEB5A8B9EC2069551D7581AA /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		1343A2E1413DE0C04F902EC67B127414 /* Double+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Ex.swift"; sourceTree = "<group>"; };
 		140409D86BDAE000B304E7744AF16674 /* Pods-SparkCom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SparkCom_Example.modulemap"; sourceTree = "<group>"; };
-		14DE836481A665E868627791DA041B1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14DE836481A665E868627791DA041B1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1680A02CAC6C075E91193D34B994EE04 /* UIImage+SVGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SVGImage.h"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1CBA8594A9E1B3E95269837C0E79456F /* SparkCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SparkCom.debug.xcconfig; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		444B2D1167F01588BED207E477E97C17 /* UIButton+JKImagePosition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JKImagePosition.m"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		45FC2406C495482159F35B551E5248A1 /* SparkKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SparkKit.swift; sourceTree = "<group>"; };
-		465405B6F7B5AA4EECA20B082B088895 /* SparkCom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SparkCom.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		465405B6F7B5AA4EECA20B082B088895 /* SparkCom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SparkCom.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		47FCB9624996ECEC8F60BF9A39A302F0 /* UIAlertController+Rotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Rotation.h"; sourceTree = "<group>"; };
 		4A952147F0DB06C94CD6EF9E25DB403C /* NSArray+ErrorHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ErrorHandle.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		9B02B15E5E1101261276240566ED057F /* UITextField_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextField_Ex.swift; sourceTree = "<group>"; };
 		9B3172C42A240FD10982D7855E673C1B /* UIView+JKToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JKToast.h"; sourceTree = "<group>"; };
 		9D47D5CAD6A5730FF64E6E406FBE8C78 /* SparkTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SparkTools.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E748B673162AD72CFBE9B2468ACD8EC /* Date_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Date_Ex.swift; sourceTree = "<group>"; };
 		A252F659B70B665EA33CFE3819C88CFD /* Pods-SparkCom_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SparkCom_Tests"; path = Pods_SparkCom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58565FBE44136CC9612ED56BEBB00D8 /* Pods-SparkCom_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkCom_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E91C6D4C4F73D7498EEA62373D5D99E9 /* UIDevice+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ex.swift"; sourceTree = "<group>"; };
 		EBD1E560FBF9FB558C2FFB9CF2A42650 /* String_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String_Ex.swift; sourceTree = "<group>"; };
-		F1D1E53E4B00E0DAE301D04E125E0869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1D1E53E4B00E0DAE301D04E125E0869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F80886DCDC001ACFFF3F6EA5D2EB3E37 /* UIViewController_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController_Ex.swift; sourceTree = "<group>"; };
 		FA760068E8D61C628FF952DD5A22E869 /* Pods-SparkCom_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SparkCom_Example"; path = Pods_SparkCom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB77455F3CC824BCC59C6FA308C2446 /* UIButton_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButton_Ex.swift; sourceTree = "<group>"; };
@@ -273,7 +273,6 @@
 				11B3E42EFEB5A8B9EC2069551D7581AA /* UIImage+Gif.swift */,
 				AF100F10825856779149DEC555321361 /* UILabel+Extension.swift */,
 			);
-			name = "Ex+";
 			path = "Ex+";
 			sourceTree = "<group>";
 		};
@@ -299,7 +298,6 @@
 				9B3172C42A240FD10982D7855E673C1B /* UIView+JKToast.h */,
 				7E856DA8EF185700DA74DEE929D8A48D /* UIView+JKToast.m */,
 			);
-			name = Ex_OC;
 			path = Ex_OC;
 			sourceTree = "<group>";
 		};
@@ -330,7 +328,6 @@
 				2506C8F1A6504D5AAB7C142DDC588452 /* Ex+ */,
 				C7448A34592B656F050F2699063FA455 /* Ex_ */,
 			);
-			name = Ex_Swift;
 			path = Ex_Swift;
 			sourceTree = "<group>";
 		};
@@ -462,7 +459,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -488,7 +484,6 @@
 				C0F4E9CB0675A46DAC21E0424320C010 /* UIView_Ex.swift */,
 				F80886DCDC001ACFFF3F6EA5D2EB3E37 /* UIViewController_Ex.swift */,
 			);
-			name = Ex_;
 			path = Ex_;
 			sourceTree = "<group>";
 		};
@@ -939,8 +934,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
