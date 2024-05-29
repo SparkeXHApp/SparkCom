@@ -17,7 +17,7 @@ SparkCom is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SparkCom'
+pod 'SparkCom', :git => "https://github.com/SparkeXHApp/SparkCom.git"
 ```
 
 ## Author
