@@ -57,6 +57,7 @@
 		A07DBAFA5900F1F197D38E08F358C826 /* UIAlertController+Rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FCB9624996ECEC8F60BF9A39A302F0 /* UIAlertController+Rotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5591146420DE8161DA405C0D6923331 /* NSMutableArray+beyond.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B27C6318ADAE6BC58FD5B699D516C /* NSMutableArray+beyond.m */; };
 		A65D5C644955207E039C36A361D9E0F1 /* UIDevice+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C6D4C4F73D7498EEA62373D5D99E9 /* UIDevice+Ex.swift */; };
+		AE6037A22C08134A0073659C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6037A12C08134A0073659C /* UIView+Extension.swift */; };
 		B2513FCA624588D6FF2B026D9A49E5A4 /* UINavigationController_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335CB18C9F5F56E76F90F9F36BA444F3 /* UINavigationController_Ex.swift */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		BC8A1501D7501A5ABA1B7BB7203D78E9 /* Pods-SparkCom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D321663522BDFCAB268BDEC6E2EF37B9 /* Pods-SparkCom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -176,6 +177,7 @@
 		A58565FBE44136CC9612ED56BEBB00D8 /* Pods-SparkCom_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkCom_Tests-Info.plist"; sourceTree = "<group>"; };
 		AA6C015EA68073ED43E0954AC8AABABE /* Pods-SparkCom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SparkCom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA6CE44A4523CAB005F09EE40F5ED12D /* UIAlertController_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIAlertController_Ex.swift; sourceTree = "<group>"; };
+		AE6037A12C08134A0073659C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		AF100F10825856779149DEC555321361 /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		B1B8744075B268CE91DD5CBC521975A3 /* UIAlertController+Rotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Rotation.m"; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				E91C6D4C4F73D7498EEA62373D5D99E9 /* UIDevice+Ex.swift */,
 				11B3E42EFEB5A8B9EC2069551D7581AA /* UIImage+Gif.swift */,
 				AF100F10825856779149DEC555321361 /* UILabel+Extension.swift */,
+				AE6037A12C08134A0073659C /* UIView+Extension.swift */,
 			);
 			path = "Ex+";
 			sourceTree = "<group>";
@@ -762,6 +765,7 @@
 				A65D5C644955207E039C36A361D9E0F1 /* UIDevice+Ex.swift in Sources */,
 				6207398D357596E361125AEC2C58E3D0 /* UIImage+Gif.swift in Sources */,
 				7D01E9464E50DB9F14242CBBE284A025 /* UIImage+ImageEffects.m in Sources */,
+				AE6037A22C08134A0073659C /* UIView+Extension.swift in Sources */,
 				08C0B5C87E82E7D2F644E6C9F942E5C5 /* UIImage+ImageSize.m in Sources */,
 				CD2107CD6D1CF550BCCDD42353474A04 /* UIImage+SVGImage.m in Sources */,
 				D62EA717824245F7963D818F976A602D /* UILabel+Extension.swift in Sources */,
