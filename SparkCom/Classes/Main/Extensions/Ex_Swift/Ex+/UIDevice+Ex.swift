@@ -8,21 +8,20 @@
 
 import Foundation
 
-@objcMembers
 public extension UIDevice {
     
     /** 屏幕的宽度 */
-    static func getScreenWith() -> CGFloat {
+    @objc static func getScreenWith() -> CGFloat {
         return UIScreen.main.bounds.size.width
     }
     
     /** 屏幕的高度 */
-    static func getScreenHeight() -> CGFloat {
+    @objc static func getScreenHeight() -> CGFloat {
         return UIScreen.main.bounds.size.height
     }
     
     /** 顶部安全区高度 */
-    static func topSafeAreaHeight() -> CGFloat {
+    @objc static func topSafeAreaHeight() -> CGFloat {
         if #available(iOS 13.0, *) {
             let scene = UIApplication.shared.connectedScenes.first
             guard let windowScene = scene as? UIWindowScene else {
@@ -43,7 +42,7 @@ public extension UIDevice {
     }
     
     /** 底部安全区高度 */
-    static func bottomSafeAreaHeight() -> CGFloat {
+    @objc static func bottomSafeAreaHeight() -> CGFloat {
         if #available(iOS 13.0, *) {
             let scene = UIApplication.shared.connectedScenes.first
             guard let windowScene = scene as? UIWindowScene else {
@@ -64,7 +63,7 @@ public extension UIDevice {
     }
     
     /** 顶部状态栏高度(包括安全区) */
-    static func statusBarHeight() -> CGFloat {
+    @objc static func statusBarHeight() -> CGFloat {
         var statusBarHeight: CGFloat = 0.0
         if #available(iOS 13.0, *) {
             let scene = UIApplication.shared.connectedScenes.first
@@ -88,22 +87,22 @@ public extension UIDevice {
     }
     
     /** 顶部导航栏高度 */
-    static func topNavBarHeight() -> CGFloat {
+    @objc static func topNavBarHeight() -> CGFloat {
         return 44.0
     }
     
     /** 导航栏 + 状态栏的高度 */
-    static func navBarAndStatusBarHeight() -> CGFloat {
+    @objc static func navBarAndStatusBarHeight() -> CGFloat {
         return UIDevice.topNavBarHeight() + UIDevice.statusBarHeight()
     }
     
     /** 底部导航栏高度 */
-    static func bottomTabBarHeight() -> CGFloat {
+    @objc static func bottomTabBarHeight() -> CGFloat {
         return 49.0
     }
     
     /** 底部导航栏 + 底部安全区的高度 */
-    static func tabBarAndBottomSafeAreaHeight() -> CGFloat {
+    @objc static func tabBarAndBottomSafeAreaHeight() -> CGFloat {
         return UIDevice.bottomTabBarHeight() + UIDevice.bottomSafeAreaHeight()
     }
 }
