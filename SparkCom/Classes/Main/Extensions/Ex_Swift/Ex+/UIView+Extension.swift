@@ -7,6 +7,21 @@
 
 import Foundation
 
+struct AssociatedKeys {
+    static var otherAttributeKey: String = "otherAttributeKey"
+}
+
+extension UIView {
+    public var otherAttribute: String? {
+        get {
+            return objc_getAssociatedObject(self, &AssociatedKeys.otherAttributeKey) as? String
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedKeys.otherAttributeKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+}
+
 extension UIView {
     /// 将当前视图转为UIImage
     func asImage() -> UIImage {
