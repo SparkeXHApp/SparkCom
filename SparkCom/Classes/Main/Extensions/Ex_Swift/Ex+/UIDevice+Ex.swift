@@ -8,6 +8,7 @@
 
 import Foundation
 
+@objcMembers
 public extension UIDevice {
     
     /** 屏幕的宽度 */
