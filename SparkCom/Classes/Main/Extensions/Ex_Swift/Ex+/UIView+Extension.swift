@@ -11,7 +11,7 @@ struct AssociatedKeys {
     static var otherAttributeKey: String = "otherAttributeKey"
 }
 
-extension UIView {
+public extension UIView {
     public var otherAttribute: String? {
         get {
             return objc_getAssociatedObject(self, &AssociatedKeys.otherAttributeKey) as? String
@@ -22,7 +22,7 @@ extension UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
     /// 将当前视图转为UIImage
     func asImage() -> UIImage {
 //        let format = UIGraphicsImageRendererFormat()
