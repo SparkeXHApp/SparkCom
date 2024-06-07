@@ -269,4 +269,10 @@ public extension UIColor {
     class var hex_F3F3F3 : UIColor{
         return LFHexColor(hex: "#F3F3F3", alpha: 1.0)
     }
+    
+    /**E8E8F3**/
+    class var hex_E8E8F3 : UIColor{
+        return LFHexColor(hex: "#E8E8F3", alpha: 1.0)
+    }
+
 }
