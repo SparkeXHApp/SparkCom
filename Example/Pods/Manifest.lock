@@ -1,10 +1,18 @@
 PODS:
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SparkCom (0.1.0)
+  - Kingfisher (4.1.1)
+  - SparkCom (0.1.0):
+    - Kingfisher (= 4.1.1)
+    - SVGKit (= 3.0.0)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -12,15 +20,21 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - CocoaLumberjack
     - FBSnapshotTestCase
+    - Kingfisher
+    - SVGKit
 
 EXTERNAL SOURCES:
   SparkCom:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SparkCom: 4b6a3b50c6a7f9d705449a7383421f7d2b72a42a
+  Kingfisher: 6793a473357b5dbee42b0068ef203fe8325f259e
+  SparkCom: f059e660d68dc769eb68b04c5769056c48cce80a
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
 
 PODFILE CHECKSUM: ded4b6a486bf487ebe401c4e859a2870856aae7a
 

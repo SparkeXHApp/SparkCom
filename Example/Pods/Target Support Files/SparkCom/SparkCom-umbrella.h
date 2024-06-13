@@ -12,6 +12,7 @@
 
 #import "NSArray+ErrorHandle.h"
 #import "NSMutableArray+beyond.h"
+#import "NSMutableArray+Safe.h"
 #import "SSHTimeTarget.h"
 #import "UIAlertController+Rotation.h"
 #import "UIButton+JKImagePosition.h"
