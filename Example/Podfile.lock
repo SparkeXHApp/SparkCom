@@ -2,17 +2,36 @@ PODS:
   - CocoaLumberjack (3.7.4):
     - CocoaLumberjack/Core (= 3.7.4)
   - CocoaLumberjack/Core (3.7.4)
+  - CYLTabBarController/Core (1.29.2)
+  - CYLTabBarController/Lottie (1.29.2):
+    - CYLTabBarController/Core
+    - lottie-ios (~> 2.5.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - FDFullscreenPopGesture (1.1)
   - Kingfisher (4.1.1)
+  - lottie-ios (2.5.3)
+  - LottieService (0.1.5):
+    - lottie-ios (= 2.5.3)
+    - SSZipArchive
+  - SnapKit (4.0.1)
   - SparkCom (0.1.0):
+    - CYLTabBarController/Lottie
+    - FDFullscreenPopGesture (= 1.1)
     - Kingfisher (= 4.1.1)
+    - LottieService
+    - SnapKit (= 4.0.1)
     - SVGKit (= 3.0.0)
+    - SVProgressHUD
+    - SwiftyJSON (= 4.0.0)
+  - SSZipArchive (2.4.3)
   - SVGKit (3.0.0):
     - CocoaLumberjack (~> 3.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -21,9 +40,17 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - CocoaLumberjack
+    - CYLTabBarController
     - FBSnapshotTestCase
+    - FDFullscreenPopGesture
     - Kingfisher
+    - lottie-ios
+    - LottieService
+    - SnapKit
+    - SSZipArchive
     - SVGKit
+    - SVProgressHUD
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   SparkCom:
@@ -31,11 +58,19 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CYLTabBarController: db44b5901a28693a8a4279e4721b3aafdd36c178
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   Kingfisher: 6793a473357b5dbee42b0068ef203fe8325f259e
-  SparkCom: f059e660d68dc769eb68b04c5769056c48cce80a
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LottieService: fc739e097e43d0cdc0e64dba870a1250b7e01840
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SparkCom: 35dbb1e3da23b1223296861b468a31782d8df9c8
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: ded4b6a486bf487ebe401c4e859a2870856aae7a
+PODFILE CHECKSUM: 206e9675b28b6591f9df397cf4c870278eb70ea4
 
 COCOAPODS: 1.13.0

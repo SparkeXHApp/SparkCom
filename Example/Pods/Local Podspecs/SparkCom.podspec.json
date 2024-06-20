@@ -16,15 +16,38 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
   "source_files": "SparkCom/Classes/**/*",
+  "resource_bundles": {
+    "SparkCom": [
+      "SparkCom/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "Kingfisher": [
       "4.1.1"
     ],
     "SVGKit": [
       "3.0.0"
+    ],
+    "FDFullscreenPopGesture": [
+      "1.1"
+    ],
+    "SwiftyJSON": [
+      "4.0.0"
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "SnapKit": [
+      "4.0.1"
+    ],
+    "LottieService": [
+
+    ],
+    "CYLTabBarController/Lottie": [
+
     ]
   }
 }

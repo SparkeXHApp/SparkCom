@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/SparkeXHApp/SparkCom.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SparkCom/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SparkCom' => ['SparkCom/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SparkCom' => ['SparkCom/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -42,5 +42,11 @@ TODO: Add long description of the pod here.
   
   s.dependency 'Kingfisher', '4.1.1'
   s.dependency 'SVGKit', '3.0.0'
+  s.dependency 'FDFullscreenPopGesture', '1.1'
+  s.dependency 'SwiftyJSON', '4.0.0'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'SnapKit', '4.0.1'
+  s.dependency 'LottieService'
+  s.dependency 'CYLTabBarController/Lottie'
   
 end
