@@ -25,7 +25,7 @@ public class SpaceStateView: UIView {
         loadSubView()
     }
 
-    func viewStyle(ktopH: CGFloat, imageName: String, title: String, titleHidden: Bool, refrestitle: String, refreshHidden: Bool) {
+    public func viewStyle(ktopH: CGFloat, imageName: String, title: String, titleHidden: Bool, refrestitle: String, refreshHidden: Bool) {
         TopH = ktopH
 
         let KW = bounds.size.width
@@ -40,7 +40,7 @@ public class SpaceStateView: UIView {
         addBtn.text = "暂无网络哦~"
     }
 
-    func viewStyle(ktopH: CGFloat, imageName: String, title: String, titleHidden: Bool, refrestitle: String, refreshHidden: Bool, imgW: CGFloat, imgH: CGFloat, titleFont: UIFont = UIFont.systemFont(ofSize: 15, weight: .regular)) {
+    public func viewStyle(ktopH: CGFloat, imageName: String, title: String, titleHidden: Bool, refrestitle: String, refreshHidden: Bool, imgW: CGFloat, imgH: CGFloat, titleFont: UIFont = UIFont.systemFont(ofSize: 15, weight: .regular)) {
         TopH = ktopH
 
         let KW = bounds.size.width
@@ -56,7 +56,7 @@ public class SpaceStateView: UIView {
         addBtn.text = "暂无网络哦~"
     }
 
-    func loadSubView() {
+    public func loadSubView() {
         let KW = bounds.size.width
         imgBGView = UIImageView(frame: CGRect(x: (KW-imgW)/2, y: TopH, width: imgW, height: imgH))
         addSubview(imgBGView)
@@ -98,7 +98,7 @@ public class SpaceStateView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func changeToAtr(str: String, repstr: String, size: Int, colorstr: String) -> NSAttributedString {
+    public func changeToAtr(str: String, repstr: String, size: Int, colorstr: String) -> NSAttributedString {
         let attributedString = NSMutableAttributedString(string: str)
         let str2 = NSString(string: str)
         let theRange2 = str2.range(of: repstr)
