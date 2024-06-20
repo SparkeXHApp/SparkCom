@@ -11,9 +11,9 @@ import Kingfisher
 import Lottie
 import CYLTabBarController
 
-class SparkTabBarController: CYLTabBarController {
+open class SparkTabBarController: CYLTabBarController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         if #available(iOS 13.0, *) {
@@ -47,15 +47,15 @@ class SparkTabBarController: CYLTabBarController {
 
     //MARK: - 转屏相关
     
-    override var shouldAutorotate: Bool {
+    open override var shouldAutorotate: Bool {
         return self.selectedViewController!.shouldAutorotate
     }
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return self.selectedViewController?.supportedInterfaceOrientations ?? UIInterfaceOrientationMask.portrait
     }
  
-    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+    open override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
         return self.selectedViewController!.preferredInterfaceOrientationForPresentation
     }
 

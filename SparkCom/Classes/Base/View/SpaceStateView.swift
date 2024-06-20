@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpaceStateView: UIView {
+public class SpaceStateView: UIView {
     private let imgW: CGFloat = 150
     private let imgH: CGFloat = 150
     private var TopH: CGFloat = 0

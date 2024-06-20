@@ -8,8 +8,9 @@
 
 import UIKit
  
-class LFCustomNavController: LFBaseViewController {
-    override func viewDidLoad() {
+public class LFCustomNavController: LFBaseViewController {
+    
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.barTintColor = UIColor.white
         

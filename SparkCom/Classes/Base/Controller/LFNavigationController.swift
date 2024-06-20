@@ -20,10 +20,10 @@ extension UINavigationController {
     }
 }
 
-class LFNavigationController: UINavigationController, UINavigationControllerDelegate {
+open class LFNavigationController: UINavigationController, UINavigationControllerDelegate {
     var pushing = false // 防止push多次
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         if #available(iOS 13, *) {
             self.modalPresentationStyle = .fullScreen
@@ -61,7 +61,7 @@ class LFNavigationController: UINavigationController, UINavigationControllerDele
     
     // MARK: UINavigationControllerDelegate
 
-    func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+    private func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         self.pushing = false
     }
 
@@ -72,7 +72,7 @@ class LFNavigationController: UINavigationController, UINavigationControllerDele
      - parameter viewController: 需要压栈的控制器
      - parameter animated:       是否动画
      */
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         /// 这时push进来的控制器viewController，不是第一个子控制器（不是根控制器）
 //        guard !viewController.isKind(of: LFSearchViewController.self) else {
 //            super.pushViewController(viewController, animated: false)
@@ -110,28 +110,28 @@ class LFNavigationController: UINavigationController, UINavigationControllerDele
         popViewController(animated: true)
     }
 
-    override func didReceiveMemoryWarning() {
+    open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    override var shouldAutorotate: Bool {
+    open override var shouldAutorotate: Bool {
         return self.topViewController!.shouldAutorotate
     }
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return self.topViewController!.supportedInterfaceOrientations
     }
 
-    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+    open override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
         return self.topViewController!.preferredInterfaceOrientationForPresentation
     }
 
-    override var childViewControllerForStatusBarStyle: UIViewController? {
+    open override var childViewControllerForStatusBarStyle: UIViewController? {
         return self.topViewController
     }
      
-    override var childViewControllerForStatusBarHidden: UIViewController? {
+    open override var childViewControllerForStatusBarHidden: UIViewController? {
         return self.topViewController
     }
 }

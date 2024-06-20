@@ -11,12 +11,12 @@ import UIKit
 import SVProgressHUD
 import FDFullscreenPopGesture
 
-class LFBaseViewController: UIViewController {
+open class LFBaseViewController: UIViewController {
     var nonetisShow = false
     /// 埋点功能或页面使用时长(单位:秒)，取时间戳差值
     var app_use_duration_start: TimeInterval = 0
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         if #available(iOS 11.0, *) {
         } else {
@@ -65,7 +65,7 @@ class LFBaseViewController: UIViewController {
         return view
     }()
 
-    override func didReceiveMemoryWarning() {
+    open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     

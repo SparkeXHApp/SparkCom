@@ -11,7 +11,7 @@
 import UIKit
 import SnapKit
 
-class SparkNoNetworkView: UIView {
+public class SparkNoNetworkView: UIView {
 
     /// 重新加载的回调
     var reloadEvent:(()->())?

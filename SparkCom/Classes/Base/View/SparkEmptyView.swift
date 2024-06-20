@@ -21,7 +21,7 @@ import LottieService
 #endif
 
 
-class SparkEmptyView: UIView {
+public class SparkEmptyView: UIView {
     
     /// 初始化
     /// - Parameters:
