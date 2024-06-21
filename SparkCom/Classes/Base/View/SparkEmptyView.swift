@@ -29,7 +29,7 @@ public class SparkEmptyView: UIView {
     ///   - imgPath: 提示图片，可以是图片名字、远程图片、本地json、远程不带图片json、远程json压缩包, 默认是本地图片: "empty.png"
     ///   - noticeStr: 提示文字， 默认是："这里什么都没有哦~"
     ///
-    init(frame: CGRect, imgPath: String = "", noticeStr: String = "") {
+    public init(frame: CGRect, imgPath: String = "", noticeStr: String = "") {
         super.init(frame: frame)
         self.backgroundColor = .clear
         let img = imgPath == "" ? "empty.png" : imgPath

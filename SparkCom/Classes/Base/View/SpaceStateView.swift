@@ -19,7 +19,7 @@ public class SpaceStateView: UIView {
     var titleLab: UILabel!
     var addBtn: UILabel!
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.white
         loadSubView()
@@ -56,7 +56,7 @@ public class SpaceStateView: UIView {
         addBtn.text = "暂无网络哦~"
     }
 
-    public func loadSubView() {
+    fileprivate func loadSubView() {
         let KW = bounds.size.width
         imgBGView = UIImageView(frame: CGRect(x: (KW-imgW)/2, y: TopH, width: imgW, height: imgH))
         addSubview(imgBGView)

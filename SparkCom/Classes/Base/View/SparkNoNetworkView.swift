@@ -16,7 +16,7 @@ public class SparkNoNetworkView: UIView {
     /// 重新加载的回调
     var reloadEvent:(()->())?
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .clear
         loadViews()
@@ -27,14 +27,14 @@ public class SparkNoNetworkView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func loadViews() {
+    fileprivate func loadViews() {
         self.addSubview(imgView)
         self.addSubview(infoLabel)
         self.addSubview(setBtn)
         self.addSubview(reloadBtn)
     }
     
-    func layoutViews() {
+    fileprivate func layoutViews() {
         imgView.snp.makeConstraints { make in
             make.size.equalTo(CGSize(width: 100, height: 100))
             make.centerY.equalTo(self.snp.centerY).offset(-140)
