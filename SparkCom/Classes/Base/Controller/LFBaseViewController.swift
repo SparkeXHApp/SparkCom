@@ -12,9 +12,10 @@ import SVProgressHUD
 import FDFullscreenPopGesture
 
 open class LFBaseViewController: UIViewController {
-    var nonetisShow = false
+    
+    public var nonetisShow = false
     /// 埋点功能或页面使用时长(单位:秒)，取时间戳差值
-    var app_use_duration_start: TimeInterval = 0
+    public var app_use_duration_start: TimeInterval = 0
     
     open override func viewDidLoad() {
         super.viewDidLoad()
