@@ -11,6 +11,7 @@ import Kingfisher
 import Lottie
 import CYLTabBarController
 
+@objc(SparkTabBarController)
 open class SparkTabBarController: CYLTabBarController {
 
     open override func viewDidLoad() {
