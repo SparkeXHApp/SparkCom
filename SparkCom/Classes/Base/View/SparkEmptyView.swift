@@ -119,10 +119,14 @@ public class SparkEmptyView: UIView {
     
     /// 图片
     private lazy var imgView: UIImageView = {
+        let bundlePath = Bundle(for: self.classForCoder).path(forResource: "SparkCom", ofType: "bundle")
+        let bundle = Bundle(path: bundlePath ?? "")
+        let image = UIImage(named: "empty.png", in: bundle, compatibleWith: nil)
+        
         let view = UIImageView()
         view.backgroundColor = .clear
         view.contentMode = .scaleAspectFit
-        view.image = UIImage(named: "empty.png")
+        view.image = image
         view.isHidden = false
         return view
     }()

@@ -87,7 +87,12 @@ open class LFNavigationController: UINavigationController, UINavigationControlle
             if viewControllers.count > 0 {
                 // push 后隐藏 tabbar
                 viewController.hidesBottomBarWhenPushed = true
-                viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_back.png")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(self.navigationBackClick))
+                
+                let bundlePath = Bundle(for: self.classForCoder).path(forResource: "SparkCom", ofType: "bundle")
+                let bundle = Bundle(path: bundlePath ?? "")
+                let image = UIImage(named: "nav_back.png", in: bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
+                
+                viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(self.navigationBackClick))
                 
                 //            let leftbtn = UIButton(type:UIButtonType.custom)
                 //            leftbtn.frame = CGRect(x: 0, y:0, width: 10, height:18)
