@@ -61,7 +61,7 @@ open class LFNavigationController: UINavigationController, UINavigationControlle
     
     // MARK: UINavigationControllerDelegate
 
-    private func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
+    public func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         self.pushing = false
     }
 
