@@ -256,7 +256,7 @@
 		590E0ABD3A78B8B160C60B819AA70B3E /* LOTMaskContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B674B4823BEF9895B8AC382AA92F2D /* LOTMaskContainer.m */; };
 		5A2FC3C37B5CF263E9ADBF62DF975401 /* DocumentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB4C85E6F01050F2FE28F230D97F5F5 /* DocumentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A67C95BFB87030E0B2B060129EF70EB /* SVGKExporterNSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1815F7551E48A24D0B238C7C78DCA0 /* SVGKExporterNSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A754D27B0C95B420BCCE1AA26E86D10 /* nonet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1260FF19174B937E721279EA8B0AD51A /* nonet.png */; };
+		5A754D27B0C95B420BCCE1AA26E86D10 /* nonet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1260FF19174B937E721279EA8B0AD51A /* nonet@3x.png */; };
 		5B16C4D103B0CE70DA5F7E986580DD62 /* SVGStyleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7AF67C1BC62010ABD4A2E1790A7370 /* SVGStyleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B4243025327AE07646F68501B470CEE /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9CD1DC76EDB88CB02D0D8F14E65798 /* CYLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 228EAF8EE5F36484C58258BA5A451CC8 /* FBSnapshotTestCase-dummy.m */; };
@@ -315,7 +315,7 @@
 		6FC48D6F9E9D48C12E87BF76D3347AC3 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 78919F46D79A0543BCD5EB696FFC4ED6 /* mz_zip_rw.c */; };
 		6FC9AC147524CBFAE8F74244292CCB58 /* UIView_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326FB26DE56CCB7234C593720AEFBBC /* UIView_Ex.swift */; };
 		6FCEC1D82466A0640C067970C142D6FC /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E7EE93CB50DFDE31E8A395BD66E57 /* ConstraintMakerFinalizable.swift */; };
-		7042B1AE9F43C9740D4A7C7D2004F98C /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty.png */; };
+		7042B1AE9F43C9740D4A7C7D2004F98C /* empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty@3x.png */; };
 		717D0C947E8F27CAB5675FCF0D200DB9 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F0A93448E61DE0F29168972641579 /* ConstraintInsetTarget.swift */; };
 		718EBD77BA247BEB43368D442B9CCBF3 /* SVGDescriptionElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7C996AA0464EB3A9A881B28384E6E5 /* SVGDescriptionElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		725F1F5B1D921B5AF49B26A2D4BC7D1A /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F6418AD359720B2904BD4C5C3A06C /* mz_strm_zlib.c */; };
@@ -587,7 +587,7 @@
 		DA07177C225F6ADC9271B98EDC37A1F8 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F239BA857E63BE1A125A825204EF8BF5 /* DDOSLogger.m */; };
 		DB3289095C460121E4A16F97D2A5A756 /* SVGKSourceLocalFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 336B836244A0BF89EDF5B1E611914305 /* SVGKSourceLocalFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB5E38146A3E17034FC794EDAC97AFC9 /* UIBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 47555813B2A2A92AF4132CD7930CCF59 /* UIBezierPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC0C8BF9C4A7E8E14403BC1BA7697615 /* nav_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A78EAB0C579C2D18F3283379136862 /* nav_back.png */; };
+		DC0C8BF9C4A7E8E14403BC1BA7697615 /* nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A78EAB0C579C2D18F3283379136862 /* nav_back@3x.png */; };
 		DC4424F1C3EDE2DFD10159ED87048E99 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A90CB4A8DADA879476710255255E4F /* ConstraintDSL.swift */; };
 		DC58F0AE57CE2124997D59C69869F47F /* UIViewController_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54F788365CB83F38AAB3A5B04EFB6C6 /* UIViewController_Ex.swift */; };
 		DD5A0862F01B8EE9589CC86C25CB9F85 /* SVGMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BB66C761A2537764E5A2B8F6D84B5A /* SVGMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -926,7 +926,7 @@
 		11A018DD2AE323DFF39A83A40177B38C /* SVGSVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m"; sourceTree = "<group>"; };
 		11DF81A1B7A24AF6C981E1CE6B4D69DB /* SVGKSourceURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceURL.m; path = Source/Sources/SVGKSourceURL.m; sourceTree = "<group>"; };
 		12187CA41ED7A6C8FF7B8017247F5073 /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTAnimatedSwitch.h; path = "lottie-ios/Classes/PublicHeaders/LOTAnimatedSwitch.h"; sourceTree = "<group>"; };
-		1260FF19174B937E721279EA8B0AD51A /* nonet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nonet.png; path = SparkCom/Assets/nonet.png; sourceTree = "<group>"; };
+		1260FF19174B937E721279EA8B0AD51A /* nonet@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nonet@3x.png"; path = "SparkCom/Assets/nonet@3x.png"; sourceTree = "<group>"; };
 		12D248C84E364DCDC64B813471D6FE56 /* SVGLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGLength.h; path = "Source/DOM classes/SVG-DOM/SVGLength.h"; sourceTree = "<group>"; };
 		1304DBC7984D512C6712EF7541488F74 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
 		13AFBF298073C614E87351034F4AECD9 /* SVGDescriptionElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDescriptionElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m"; sourceTree = "<group>"; };
@@ -1109,7 +1109,7 @@
 		4EBD3EAFABEF0406FA0548CE9BED47D3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		4EBDC677EB4D07A78D41081C15CFFB29 /* SVGTextPositioningElement_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextPositioningElement_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGTextPositioningElement_Mutable.h"; sourceTree = "<group>"; };
 		4F375A8A3827A98564D1DAA0CA64D0DF /* CSSRuleList+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CSSRuleList+Mutable.h"; path = "Source/DOM classes/Core DOM/CSSRuleList+Mutable.h"; sourceTree = "<group>"; };
-		4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = empty.png; path = SparkCom/Assets/empty.png; sourceTree = "<group>"; };
+		4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "empty@3x.png"; path = "SparkCom/Assets/empty@3x.png"; sourceTree = "<group>"; };
 		509C6521936FC5BC2FEA550C45B59A70 /* LOTCompositionContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LOTCompositionContainer.m; path = "lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.m"; sourceTree = "<group>"; };
 		50DC236E5915610865CDB1C1952159D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		50EC309F9E277BAD4C7AB35D6EBFD28F /* LOTTransformInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LOTTransformInterpolator.h; path = "lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.h"; sourceTree = "<group>"; };
@@ -1499,7 +1499,7 @@
 		D27C154A7B48DE79ECACB780FBE7BEEE /* SVGDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGDocument.h; path = "Source/DOM classes/SVG-DOM/SVGDocument.h"; sourceTree = "<group>"; };
 		D321663522BDFCAB268BDEC6E2EF37B9 /* Pods-SparkCom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SparkCom_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D39D961E49B11CECE2355A759A122708 /* NSMutableArray+beyond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+beyond.h"; sourceTree = "<group>"; };
-		D3A78EAB0C579C2D18F3283379136862 /* nav_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_back.png; path = SparkCom/Assets/nav_back.png; sourceTree = "<group>"; };
+		D3A78EAB0C579C2D18F3283379136862 /* nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_back@3x.png"; path = "SparkCom/Assets/nav_back@3x.png"; sourceTree = "<group>"; };
 		D3C510E8398CFD866A60ACFED42FEFB9 /* SVGKParserDefsAndUse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserDefsAndUse.h; path = "Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.h"; sourceTree = "<group>"; };
 		D3CD0CB89739B119A3B635120628AA63 /* Attr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Attr.m; path = "Source/DOM classes/Core DOM/Attr.m"; sourceTree = "<group>"; };
 		D3DE211E5B63A250AD32627F6C21E181 /* UIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIColor.m; path = "lottie-ios/Classes/MacCompatibility/UIColor.m"; sourceTree = "<group>"; };
@@ -2246,9 +2246,9 @@
 		92C3F42E1585B98F31332272266EB4D2 /* SparkCom */ = {
 			isa = PBXGroup;
 			children = (
-				4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty.png */,
-				D3A78EAB0C579C2D18F3283379136862 /* nav_back.png */,
-				1260FF19174B937E721279EA8B0AD51A /* nonet.png */,
+				4F75E0ECEF3C19A06A6C2D63F2E20351 /* empty@3x.png */,
+				D3A78EAB0C579C2D18F3283379136862 /* nav_back@3x.png */,
+				1260FF19174B937E721279EA8B0AD51A /* nonet@3x.png */,
 				28C422B4E7C61B8A4FDA36850F9D89D2 /* Base */,
 				4CDB75D323A28792EBDFCF503F12EE1F /* Constant */,
 				C1557E422FCA6CA5EFA183515DF32CD6 /* Main */,
@@ -3808,9 +3808,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7042B1AE9F43C9740D4A7C7D2004F98C /* empty.png in Resources */,
-				DC0C8BF9C4A7E8E14403BC1BA7697615 /* nav_back.png in Resources */,
-				5A754D27B0C95B420BCCE1AA26E86D10 /* nonet.png in Resources */,
+				7042B1AE9F43C9740D4A7C7D2004F98C /* empty@3x.png in Resources */,
+				DC0C8BF9C4A7E8E14403BC1BA7697615 /* nav_back@3x.png in Resources */,
+				5A754D27B0C95B420BCCE1AA26E86D10 /* nonet@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

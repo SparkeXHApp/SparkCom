@@ -90,7 +90,7 @@ open class LFNavigationController: UINavigationController, UINavigationControlle
                 
                 let bundlePath = Bundle(for: self.classForCoder).path(forResource: "SparkCom", ofType: "bundle")
                 let bundle = Bundle(path: bundlePath ?? "")
-                let image = UIImage(named: "nav_back.png", in: bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
+                let image = UIImage(named: "nav_back@3x.png", in: bundle, compatibleWith: nil)?.withRenderingMode(.alwaysOriginal)
                 
                 viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(self.navigationBackClick))
                 

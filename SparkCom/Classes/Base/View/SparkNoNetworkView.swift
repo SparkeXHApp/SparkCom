@@ -76,7 +76,7 @@ public class SparkNoNetworkView: UIView {
     private lazy var imgView: UIImageView = {
         let bundlePath = Bundle(for: self.classForCoder).path(forResource: "SparkCom", ofType: "bundle")
         let bundle = Bundle(path: bundlePath ?? "")
-        let image = UIImage(named: "nonet.png", in: bundle, compatibleWith: nil)
+        let image = UIImage(named: "nonet@3x.png", in: bundle, compatibleWith: nil)
         
         let view = UIImageView()
         view.backgroundColor = .clear
