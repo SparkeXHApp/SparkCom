@@ -88,7 +88,7 @@ public extension UIDevice {
     
     /** 顶部导航栏高度 */
     @objc static func topNavBarHeight() -> CGFloat {
-        return 44.0
+        return isIPad ? 50.0 : 44.0
     }
     
     /** 导航栏 + 状态栏的高度 */

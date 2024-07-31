@@ -46,7 +46,7 @@
 		E40131E890DFFC4822AAB110 /* Pods-SparkCom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCom_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SparkCom_Tests/Pods-SparkCom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBC18783C972EE17023B8A5A /* Pods-SparkCom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCom_Example.release.xcconfig"; path = "Target Support Files/Pods-SparkCom_Example/Pods-SparkCom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA5279973F6B2A3F7AB87919 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC004FE079A39EA4374F8ECD /* SparkCom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SparkCom.podspec; path = ../SparkCom.podspec; sourceTree = "<group>"; };
+		FC004FE079A39EA4374F8ECD /* SparkCom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SparkCom.podspec; path = ../SparkCom.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
